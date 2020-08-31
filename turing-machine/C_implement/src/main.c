@@ -1,11 +1,10 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <string.h>
 
 #define SIZE 1000
 
-/*Main table,    1st index,        1st state           Steps count*/
-char TABLE[SIZE]=""; int INDEX=SIZE/2; char STATE='A'; unsigned long int STEPS=0;
+/*Main table,     1st index,        1st state       Steps count*/
+char TABLE[SIZE]; int INDEX=SIZE/2; char STATE='A'; unsigned long int STEPS=0;
 
               /*state, content*/
 char transition(char s,int c);
