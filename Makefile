@@ -1,2 +1,2 @@
 clean:
-	$(RM) -r $(shell find . -name ".ipynb_checkpoint")
+	$(RM) -r $(shell find . -name ".ipynb_checkpoints")
