@@ -7,3 +7,4 @@ Projet Euler | [Link](https://github.com/b0th/notebooks/blob/master/projet-euler
 QR code (fuzz) | [Link](https://github.com/b0th/notebooks/blob/master/qr-code/qr-code.ipynb)
 Quantum exploration | [Link](https://github.com/b0th/notebooks/blob/master/quantum/quantum-exploration.ipynb)
 Turing machine | [Link](https://github.com/b0th/notebooks/blob/master/turing-machine/TM.ipynb)
+Cryptohacks | [Link](https://github.com/b0th/notebooks/blob/master/cryptohack/crypto.ipynb)
