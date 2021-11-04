@@ -213,3 +213,23 @@ int Problem30::solve()
         ret += (is_good(i)) ? i : 0;
     return (ret);
 }
+
+bool Problem34::is_good(int n)
+{
+    long int tmp = n;
+    long int _sum = 0;
+
+    for (; n != 0; n /= 10)
+        _sum += Factorial <long int> (n % 10);
+    return (_sum == tmp);
+}
+
+int Problem34::solve()
+{
+    int _sum = 0;
+
+    for (int i = 3; i <= 1499999; i++) {
+        _sum += (is_good(i)) ? i : 0;
+    }
+    return (_sum);
+}

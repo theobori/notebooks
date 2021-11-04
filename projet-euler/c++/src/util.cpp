@@ -1,7 +1,7 @@
 #include "../include/util.hpp"
 #include <math.h>
 
-bool Integer::Eratosthene(long int n)
+bool Util::Eratosthene(long int n)
 {
     long int d = 3;
 
@@ -17,7 +17,7 @@ bool Integer::Eratosthene(long int n)
     return (true);
 }
 
-long int Integer::DivSum(int n)
+long int Util::DivSum(int n)
 {
     long int ret = 0;
 
@@ -26,7 +26,7 @@ long int Integer::DivSum(int n)
     return (ret);
 }
 
-int Integer::HowManyDigits(int n)
+int Util::HowManyDigits(int n)
 {
     int digits = 0;
 

@@ -13,7 +13,7 @@ namespace TwentyFiveToFifty {
 
 #define ABS(x) (((x) < 0) ? -(x) : (x) )
 
-class Problem3: public Integer {
+class Problem3: public Util {
 
     private:
         long int param = 600851475143;
@@ -40,7 +40,7 @@ class Problem14 {
         int solve();
 };
 
-class Problem23: public Integer{
+class Problem23: public Util{
     private:
         short unsigned int param = 28123;
         bool is_abundant(int n);
@@ -50,7 +50,7 @@ class Problem23: public Integer{
         int solve();
 };
 
-class Problem27: public Integer{
+class Problem27: public Util{
     private:
         long int f(int n, short int a, short int b);
         int consecutive_primes(short int a, short int b);
@@ -104,11 +104,19 @@ class Problem29 {
         int solve();
 };
 
-class Problem30: public Integer {
+class Problem30: public Util {
     private:
         bool is_good(int n);
     public:
         Problem30() {};
+        int solve();
+};
+
+class Problem34: public Util {
+    private:
+        bool is_good(int n);
+    public:
+        Problem34() {};
         int solve();
 };
 
